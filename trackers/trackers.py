@@ -42,7 +42,7 @@ class Tracker:
             cls_names_inv = {v:k for k, v in cls_names.items()}
 
             # Convert to supervision Detection format
-            detection_supervision = sv.Detections.from_untralytics(detection)
+            detection_supervision = sv.Detections.from_ultralytics(detection)
 
             # Convert Goalkeeper to player object
             for object_ind, class_id in enumerate (detection_supervision.class_id):
