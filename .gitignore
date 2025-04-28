@@ -1,0 +1,26 @@
+# Ignore model files (PyTorch)
+*.pt
+*.pth
+
+# Ignore large model file folders (e.g., checkpoints)
+checkpoints/
+models/
+
+# Ignore virtual environment folders (common for Python projects)
+venv/
+__pycache__/
+*.pyc
+
+# Ignore dataset files (optional, if you have local datasets)
+*.csv
+*.h5
+*.npz
+
+# Ignore log files
+logs/
+
+# Ignore other common file types
+*.log
+*.bak
+*.swp
+*.DS_Store
